@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Matrix Calculator</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="background-animation"></div>
+
+    <div class="main-container">
+
+        <header>
+
+            <h1>Matrix Calculator</h1>
+
+            <p>
+                First Year Engineering Mini Project
+            </p>
+
+        </header>
+
+        <div class="control-panel">
+
+            <div class="control-group">
+
+                <label>
+                    Select Matrix Size
+                </label>
+
+                <select id="matrixSize">
+
+                    <option value="2">
+                        2 × 2
+                    </option>
+
+                    <option value="3">
+                        3 × 3
+                    </option>
+
+                    <option value="4">
+                        4 × 4
+                    </option>
+
+                </select>
+
+            </div>
+
+            <button class="generate-btn"
+                    onclick="generateMatrices()">
+
+                Generate Matrices
+
+            </button>
+
+        </div>
+
+        <div class="matrix-container">
+
+            <div class="matrix-card">
+
+                <h2>Matrix A</h2>
+
+                <div id="matrixA"
+                     class="matrix-grid">
+
+                </div>
+
+            </div>
+
+            <div class="matrix-card">
+
+                <h2>Matrix B</h2>
+
+                <div id="matrixB"
+                     class="matrix-grid">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="operations">
+
+            <button onclick="addMatrices()">
+                Matrix Addition
+            </button>
+
+            <button onclick="multiplyMatrices()">
+                Matrix Multiplication
+            </button>
+
+            <button onclick="transposeMatrix()">
+                Transpose A
+            </button>
+
+            <button onclick="calculateDeterminant()">
+                Determinant A
+            </button>
+
+            <button onclick="inverseMatrix()">
+                Inverse A
+            </button>
+
+        </div>
+
+        <div class="result-section">
+
+            <h2>Result</h2>
+
+            <div id="resultContainer">
+
+                <div class="placeholder">
+
+                    Result will appear here
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
