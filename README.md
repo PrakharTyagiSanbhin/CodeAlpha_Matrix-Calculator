@@ -1,6 +1,6 @@
 # Matrix Calculator
 
-A professional web-based Matrix Calculator developed as a First-Year Engineering Mini Project. This project performs various matrix operations using a modern user interface built with HTML, CSS, and JavaScript while demonstrating matrix concepts commonly implemented using functions and 2D arrays in C programming.
+A professional web-based Matrix Calculator developed as a First-Year Engineering Mini Project built using **HTML, CSS, and JavaScript** for **Frontend** and **C programming** for **Backend**. This project performs various matrix operations using a modern user interface built with HTML, CSS, and JavaScript while demonstrating matrix concepts commonly implemented using **functions and 2D arrays in C programming**.
 
 ## Project Overview
 
@@ -29,6 +29,10 @@ The project focuses on understanding matrix manipulation, algorithm implementati
 * HTML5
 * CSS3
 * JavaScript
+
+### Backend
+
+* C Programming
 
 ### Programming Concepts Demonstrated
 
